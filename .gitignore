@@ -1,0 +1,16 @@
+# Python cache fajlovi
+__pycache__/
+*.pyc
+
+# IDE specifični folderi
+.vscode/
+.idea/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
