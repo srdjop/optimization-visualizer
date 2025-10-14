@@ -29,7 +29,7 @@ Ispod je prikaz poređenja putanja SGD i Nadam optimizatora na kompleksnoj `beal
 ### Koraci
 1.  Klonirajte repozitorijum na vaš lokalni računar:
     ```bash
-    git clone [URL_VAŠEG_REPOZITORIJUMA_OVDE]
+    git clone https://github.com/srdjop/optimization-visualizer.git
     ```
 
 2.  Pozicionirajte se u folder projekta:
