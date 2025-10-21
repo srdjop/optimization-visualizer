@@ -15,6 +15,11 @@ Projekat je realizovan kao deo projektnog zadatka na kursu Izabrana poglavlja iz
 
 ## Primer Rezultata
 Sproveo sam kontrolni eksperiment na jednostavnoj kvadratnoj funkciji da bih postavio osnovu za poređenje. Kao što vidimo na slici ispod, svi implementirani optimizatori uspešno konvergiraju ka minimumu, što potvrđuje ispravnost koda.
+
+    ```bash
+    python main.py --optimizers sgd asgd adagrad adadelta rmsprop adam adamw adamax nadam radam --function quadratic --initial_point -9 7 --learning_rate 0.1 --iterations 100 --output_file poredjenje_svih_quadratic.png
+    ```
+    
 ![Sanity Check](results/sanity_check.png)
 
 Ispod je prikaz poređenja putanja SGD i Nadam optimizatora na kompleksnoj `beale` funkciji. Jasno se vidi kako Nadam (narandžasta) pronalazi direktniji put ka minimumu u poređenju sa SGD (plava).
