@@ -14,6 +14,8 @@ Projekat je realizovan kao deo projektnog zadatka na kursu Izabrana poglavlja iz
 -   **Implementirani optimizatori (10):** SGD, ASGD, Adagrad, Adadelta, RMSprop, Adam, AdamW, Adamax, Nadam i RAdam.
 
 ## Primer Rezultata
+Sproveo sam kontrolni eksperiment na jednostavnoj kvadratnoj funkciji da bih postavio osnovu za poređenje. Kao što vidimo na slici ispod, svi implementirani optimizatori uspešno konvergiraju ka minimumu, što potvrđuje ispravnost koda.
+![Sanity Check](results/sanity_check.png)
 
 Ispod je prikaz poređenja putanja SGD i Nadam optimizatora na kompleksnoj `beale` funkciji. Jasno se vidi kako Nadam (narandžasta) pronalazi direktniji put ka minimumu u poređenju sa SGD (plava).
 
