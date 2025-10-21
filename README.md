@@ -25,6 +25,7 @@ Sproveo sam kontrolni eksperiment na jednostavnoj kvadratnoj funkciji da bih pos
 Ispod je prikaz poređenja putanja SGD i Nadam optimizatora na kompleksnoj `beale` funkciji. Jasno se vidi kako Nadam (narandžasta) pronalazi direktniji put ka minimumu u poređenju sa SGD (plava).
 
 ![Poređenje optimizatora](results/poredjenje_sgd_vs_nadam.png)
+![Poređenje optimizatora](results/poredjenje_sgd_vs_nadam2.png)
 
 ## Instalacija
 
